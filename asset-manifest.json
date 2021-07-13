@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cafe-app/static/css/main.c7fc46ca.chunk.css",
-    "main.js": "/cafe-app/static/js/main.938d06dc.chunk.js",
-    "main.js.map": "/cafe-app/static/js/main.938d06dc.chunk.js.map",
+    "main.js": "/cafe-app/static/js/main.18b3850c.chunk.js",
+    "main.js.map": "/cafe-app/static/js/main.18b3850c.chunk.js.map",
     "runtime-main.js": "/cafe-app/static/js/runtime-main.a76dc79f.js",
     "runtime-main.js.map": "/cafe-app/static/js/runtime-main.a76dc79f.js.map",
     "static/js/2.15e12e89.chunk.js": "/cafe-app/static/js/2.15e12e89.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a76dc79f.js",
     "static/js/2.15e12e89.chunk.js",
     "static/css/main.c7fc46ca.chunk.css",
-    "static/js/main.938d06dc.chunk.js"
+    "static/js/main.18b3850c.chunk.js"
   ]
 }
