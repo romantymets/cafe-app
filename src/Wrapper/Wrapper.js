@@ -14,13 +14,11 @@ const getSearchData = (name) => `https://www.thecocktaildb.com/api/json/v1/1/sea
 const getSearchWithLetter = (letter) => `https://www.thecocktaildb.com/api/json/v1/1/search.php?f=${letter}`;
 
 const initialState = {
-
   url: RANDOM,
   isOpen: false,
   inputValue: "",
   letter: "///",
   basketDrinks: {}
-
 };
 
 const Wrapper = ({ children }) => {
