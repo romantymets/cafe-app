@@ -11,7 +11,7 @@ const routesConfig = [
   {
     layout: Wrapper,
     routes: [
-      ["/", HomeContainer, true],
+      ["/cafe-app", HomeContainer, true],
       ["/search/:text", ContentContainer, true],
       ["/letter/:letter", ContentContainer, true],
       ["/cocktail/:id", CocktailContainer, true]

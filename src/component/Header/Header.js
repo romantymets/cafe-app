@@ -14,7 +14,7 @@ const Header = () => {
     <header>
       <div className="nav">
         <div className="logo">
-          <Link onClick={() => goHome} to="/" className="logo"><FaCocktail/>NALUVAYKO</Link>
+          <Link onClick={() => goHome} to="/cafe-app" className="logo"><FaCocktail/>NALUVAYKO</Link>
         </div>
         <div className="formContainer">
           <form id="new-film-search" className="form">

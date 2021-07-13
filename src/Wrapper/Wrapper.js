@@ -34,7 +34,7 @@ const Wrapper = ({ children }) => {
 
   useEffect(() => {
     const [, query, value] = path;
-    if (query === "") {
+    if (query === "cafe-app") {
       setState({ ...state, url: RANDOM });
     }
     if (query === "letter") {
