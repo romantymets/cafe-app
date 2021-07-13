@@ -1,0 +1,32 @@
+.contentContainer{
+    width: 960px;
+    background: white;
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: PT Sans, Arial, Tahoma, sans-serif;
+    overflow: -moz-scrollbars-vertical;
+}
+.cocktailContainer{
+    margin: 5px;
+    display: flex;
+    width: 230px;
+    height: 200px;
+    background: #3498db;
+    border-radius: 5px;
+    align-items: center;
+    font-style: italic;
+}
+.titleContainer{
+font-size: 30px;
+}
+.instruction{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+

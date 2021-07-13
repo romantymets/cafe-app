@@ -1,0 +1,40 @@
+.contentContainer{
+    width: 960px;
+    background: white;
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    font-family: PT Sans, Arial, Tahoma, sans-serif;
+    overflow: -moz-scrollbars-vertical;
+    border-radius: 10px;
+}
+
+.listContainer:hover{
+    color:lightcoral;
+    cursor: pointer;
+}
+
+
+.titleCocktailContainer{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.notfound{
+    width: 960px;
+    height: 250px;
+    background: white;
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: PT Sans, Arial, Tahoma, sans-serif;
+    border-radius: 10px;
+}

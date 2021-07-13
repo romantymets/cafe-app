@@ -1,0 +1,90 @@
+header{
+  width: 100%;
+}
+
+.nav{
+  background: #171c24;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+.logo{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-decoration: none
+}
+
+.form{
+  display: flex;
+  height: 40px;
+  padding: 2px;
+  background: #1e232b;
+  min-width: 18%;
+  border-radius: 2px;
+  border: 1px solid rgba(155,155,155,0.2);
+}
+.searchButton{
+  padding: 0 15px;
+  color: #fff;
+  font-size: 20px;
+  background: #1e232b;
+  border: none;
+  fill: #c4c4c4;
+}
+.searchButton:hover{
+  padding: 0 15px;
+  color: #fff;
+  font-size: 17px;
+  background: #1e232b;
+  cursor: pointer;
+  fill: limegreen;
+}
+.searchData{
+  width: 150%;
+  height: 100%;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  font-weight: 500;
+  background: none;
+}
+
+.searchIcon{
+  width: 40px;
+  text-align: center;
+  margin: 0 50px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.basket{
+  fill: white;
+  display: flex;
+  flex-direction: row;
+}
+.basket:hover{
+  fill: limegreen;
+  cursor: pointer;
+}
+.buble{
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.buble span{
+font-size: 10px;
+}
